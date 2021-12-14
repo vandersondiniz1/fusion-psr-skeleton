@@ -1,29 +1,12 @@
 <?php
 
-// require_once(__DIR__ . '/../../vendor/autoload.php');
-require_once(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php');
+require_once(__DIR__ . '/../../vendor/autoload.php');
 
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 use Monolog\Formatter\LineFormatter;
 
 define('GERALOG', 5);
-
-function getEnvironment($envKey = null)
-{
-    try {
-        $envs = parse_ini_file(__DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . '.env');
-        if (isset($envs[$envKey])) {
-            $_ENV[$envKey] = $envs[$envKey];
-            return $_ENV[$envKey];
-        } else {
-            logMsg('->Error in handling the directories ', 'error', 'Utils.php', 'getEnvironment');
-            return null;
-        }
-    } catch (\Throwable $th) {
-        throw $th;
-    }
-}
 
 function logMsg($msg, $level = 'info', $fileSource = '', $method = '', $file = '')
 {
