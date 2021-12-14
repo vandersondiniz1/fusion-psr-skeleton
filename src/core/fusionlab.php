@@ -1,6 +1,6 @@
 <?php
 
-namespace Fusion;
+namespace FusionLab;
 
 require_once(__DIR__ . '\..\utils\utils.php');
 class FusionLab

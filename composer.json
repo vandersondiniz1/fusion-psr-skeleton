@@ -1,15 +1,15 @@
 {
-    "name": "fusion/fusion-psr-skeleton",
+    "name": "fusionlab/fusion-psr-skeleton",
     "authors": [
         {
-            "name": "Erik Figueiredo",
-            "email": "erik.figueiredo@gmail.com"
+            "name": "Vanderson Diniz",
+            "email": "vandersondiniz1@hotmail.com"
         }
     ],
     "require": {},
     "autoload": {
         "psr-4": {
-            "Fusion\\": "src/core"
+            "FusionLab\\": "src/core"
         }
     }
 }

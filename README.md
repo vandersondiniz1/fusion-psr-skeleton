@@ -4,8 +4,8 @@
 </p>
 
 ----------
-# Dev branch 1.0
-Projeto para criação de branches padronizadas
+# Fusion PSR Skeleton 1.0
+Padronização de códigos Php
 
 ----------
 
