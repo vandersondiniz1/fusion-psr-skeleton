@@ -4,8 +4,8 @@
 </p>
 
 ----------
-# Fusion PSR Skeleton 1.0
-Padronização de códigos Php
+# Fusion PSR Skeleton 1.0.0
+Padronização de códigos Php para criação de projetos autorais na empresa
 
 ----------
 
@@ -19,19 +19,16 @@ Padronização de códigos Php
 * [Variáveis de Ambiente](#variáveis-de-ambiente)
 
 >## Informações Gerais
->Esse projeto foi desenvolvido para auxiliar os desenvolvedores da FusionDMS, na criação de branches git localmente. 
+>Lorem ipsum dolor sit amet, consectetur adipiscing elit 
 
 >## Requisitos
->Php   - versão 7.4
+>Php   - versão 
 
 >## Configuração
->- Copiar a estrutura de diretórios para o lugar que achar adequado;
->- Ter um repositório git já clonado;
->- Criar um arquivo .env na raiz do projeto e configurar o Path direcionado para a raiz do repositório.
+>- Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 >## Execução
->php /src/core/app.php parâmetro número-da-eng nome-da-branch
-> - Exemplo:php /src/core/app.php bug 666 master
+>Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 >## Estrutura de Diretórios
 >- `config` - Arquivos de configuração
@@ -46,6 +43,4 @@ Padronização de códigos Php
 
 >## Variáveis de Ambiente
 >- `.env` - Variáveis de ambiente devem ser incluídas aqui
-
->Exemplo: PATH='C:\\Users\\Name\\Desktop\\Folder\\Repository\\repositoryname'
 
