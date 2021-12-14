@@ -82,12 +82,9 @@ function logMsg($msg, $level = 'info', $fileSource = '', $method = '', $file = '
 
 function wellCome()
 {
-    global $modules;
-    global $git;
-    global $aws;
-    global $docker;
+    global $msg;
 
-    if ($modules) {
+    if ($msg) {
 
         echo "\n";
         echo '========================================================' . chr(10) . chr(13);
@@ -102,23 +99,6 @@ function wellCome()
         echo 'git    :: fusionlab_git' . chr(10) . chr(13);
         echo 'aws    :: fusionlab_aws' . chr(10) . chr(13);
         echo 'docker :: fusionlab_docker' . chr(10) . chr(13);
-        echo '========================================================' . chr(10) . chr(13);
-        echo "\n";
-    } else if ($git) {
-        echo "\n";
-        echo '========================================================' . chr(10) . chr(13);
-        echo "    _______  ___   _______                              " . chr(10) . chr(13);
-        echo "    |       ||   | |       |                            " . chr(10) . chr(13);
-        echo "    |    ___||   | |_     _|                            " . chr(10) . chr(13);
-        echo "    |   | __ |   |   |   |                              " . chr(10) . chr(13);
-        echo "    |   ||  ||   |   |   |                              " . chr(10) . chr(13);
-        echo "    |   |_| ||   |   |   |                              " . chr(10) . chr(13);
-        echo "    |_______||___|   |___|                              " . chr(10) . chr(13);
-        echo '========================================================' . chr(10) . chr(13);
-        echo 'Execution' . chr(10) . chr(13);
-        echo 'fusionlab_git_bugfix  [eng_id] [branch_name - optional]' . chr(10) . chr(13);
-        echo 'fusionlab_git_hotfix  [eng_id] [branch_name - optional]' . chr(10) . chr(13);
-        echo 'fusionlab_git_feature [eng_id] [branch_name - optional]' . chr(10) . chr(13);
         echo '========================================================' . chr(10) . chr(13);
         echo "\n";
     }
